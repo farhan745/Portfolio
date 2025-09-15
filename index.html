@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav>
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-lightbulb"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="intro">
+        <div class="intro-content">
+            <div class="intro-text">
+                <h2>Hello, I'm <span>Your Name</span></h2>
+                <p class="tagline"><i class="fas fa-quote-left"></i> Coding the future, one line at a time. <i class="fas fa-quote-right"></i></p>
+            </div>
+            <div class="intro-image">
+                <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2><i class="fas fa-user"></i> About Me</h2>
+        <p>
+            I am a passionate web developer and student currently pursuing my education in 
+            Computer Science. I enjoy learning new technologies, solving problems, 
+            and building creative projects. My future goal is to become an AI Engineer.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2><i class="fas fa-briefcase"></i> My Projects</h2>
+        <div class="projects-container">
+            <article class="project">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3><i class="fas fa-laptop-code"></i> Project One</h3>
+                <p>A responsive website built using HTML & CSS.</p>
+            </article>
+            <article class="project">
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3><i class="fas fa-blog"></i> Project Two</h3>
+                <p>A blog design template with navigation and forms.</p>
+            </article>
+            <article class="project">
+                <img src="images/project3.jpg" alt="Project 3">
+                <h3><i class="fas fa-user-circle"></i> Project Three</h3>
+                <p>A simple portfolio showcasing skills and contact info.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2><i class="fas fa-lightbulb"></i> My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill"><i class="fab fa-html5"></i> HTML5 & CSS3</div>
+            <div class="skill"><i class="fab fa-js-square"></i> JavaScript (Basic)</div>
+            <div class="skill"><i class="fab fa-python"></i> Python</div>
+            <div class="skill"><i class="fas fa-brain"></i> Problem Solving</div>
+            <div class="skill"><i class="fas fa-users"></i> Teamwork</div>
+            <div class="skill"><i class="fas fa-comments"></i> Communication</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+        <p><i class="fas fa-paper-plane"></i> Email: yourname@email.com</p>
+        <p><i class="fas fa-phone"></i> Phone: +8801XXXXXXXXX</p>
+        <p class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+            <a href="#"><i class="fab fa-github"></i> GitHub</a> | 
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        </p>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
